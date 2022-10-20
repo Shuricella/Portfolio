@@ -1,55 +1,68 @@
-.wrapper-header-component{
-    /* outline: 1px solid #000000; */
-    width: 100%;
-    height: 80px;
+:root {
+    --color-decor: #7E72F2;
+    --color-base: #FFFFFF;
+    --color-hover: #00008B;
+}
+
+.wrapper-header-component {
     display: flex;
     justify-content: space-between;
-    align-items: center;}
+    align-items: center;
+    width: 100%;
+    height: 80px;
+}
 
-    .header-text-online-store{
-        /* outline: 1px solid #000000; */
-        width: 225px;
-        height: 45px;
-        font-size: 40px;
+    .header-text-online-store {
         display: flex;
         align-items: center;
-        color: #7e72f2;
-        font-weight: 600;
-        margin-left: 20px;}
+        width: 225px;
+        height: 45px;
+        margin-left: 20px;
 
-    .header-cart{
-        /* outline: 1px solid #000000; */
-        border-radius: 4px;
-        background:  #7e72f2;
-        width: 110px;
-        height: 35px;
+        font-size: 40px;
+        font-weight: 600;
+        color: var(--color-decor);
+    }
+
+    .header-cart {
         display: flex;
         justify-content: center;
-        align-items: center;}
-        .header-cart-bloc{
-            /* outline: 1px solid #000000; */
+        align-items: center;
+        width: 110px;
+        height: 35px;
+        border-radius: 4px;
+        background:  var(--color-decor);
+        text-decoration: none;
+    }
+
+        .header-cart-bloc {
+            display: flex;
+            justify-content: center;
             width: 95px;
             height: 20px;
-            display: flex;
-            display: flex;
-            justify-content: center;}
-            .header-cart-bloc-resicle{
-                /* outline: 1px solid #000000; */
+        }
+
+            .header-cart-bloc-resicle {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 width: 30px;
                 height: 100%;
-                color: white;
+                color: var(--color-base);
+            }
+
+            .header-cart-bloc-text {
                 display: flex;
                 justify-content: center;
-                align-items: center;}
-            .header-cart-bloc-text{
-                /* outline: 1px solid #000000; */
+                align-items: center;
                 height: 100%;
                 font-size: 14px;
-                color: white;
-                display: flex;
-                justify-content: center;
-                align-items: center;}
-        .button-header-cart-bloc:hover {background: #00008B;}
+                color: var(--color-base);
+            }
+
+        .header-cart:hover {
+            background: var(--color-hover);
+        }
 
     
 

@@ -9,7 +9,7 @@
         align-items: center;
         width: 225px;
         height: 45px;
-        margin-left: 20px;
+        margin: 0 0 0 20px;
 
         font-size: 40px;
         color: var(--color-decor);
@@ -24,6 +24,7 @@
 
         border-radius: 4px;
         background:  var(--color-decor);
+        text-decoration: none;
     }
 
         .header-cart-bloc {

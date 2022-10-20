@@ -1,25 +1,27 @@
-.wrapper-butto-clear{
-    outline: 1px solid #000000;
-    width: 350px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;}
+:root {
+    --color-decor: #7E72F2;
+    --color-base: #FFFFFF;
+    --color-hover: #00008B;
+}
 
-    .butto-clear{
-        /* outline: 1px solid #000000; */
-        width: 280px;
-        height: 45px;
-        border-radius: 8px;
-        background: #7E72F2;
+    .button-clear {
         display: flex;
         justify-content: center;
         align-items: center;
+        width: 280px;
+        height: 45px;
+        border-radius: 8px;
+        border: none;
         margin: 0 auto;
-        margin-top: 25px;}
+        margin-top: 25px;
+        background: var(--color-decor);
+    }
 
-        .butto-clear-text{
+            .button-clear-text {
             font-size: 14px;
-            color: white;}
+            color: var(--color-base);
+        }
 
-        .butto-clear-knop:hover {background: #00008B;}
+        .button-clear:hover {
+            background: var(--color-hover);
+        }

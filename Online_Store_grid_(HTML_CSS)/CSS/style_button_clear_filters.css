@@ -20,6 +20,7 @@
     background: var(--color-decor);
     font-size: 14px;
     color: var(--color-base);
+    cursor: pointer;
 }
 
 .butto-clear:hover {

@@ -1,52 +1,72 @@
-.osnova {
-  /* outline: 1px solid; */
+:root {
+  --color-base: #FFFFFF;
+  --color-circle-background: #DCDCDC;
+  --color-circle-text: 	#000000;
+  --color-circle-hover: #00008B;
+}
+
+.container-pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 650px;
   height: 60px;
   margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;}
+}
 
-  .ramka {
-    /* outline: 1px solid; */
-    width: 620px;
-    height: 50px;
+  .inner-pagination {
     display: flex;
     justify-content: center;
-    align-items: center;}
+    align-items: center;
+    width: 620px;
+    height: 50px;
+  }
 
-    .page-list{
-      /* outline: 1px solid; */
+    .page-list {
       display: flex;
       justify-content: center;
       align-items: center;
-      margin: 0px;}
+      margin: 0px;
+    }
 
-    .krug {
-      border: 1px solid white;
-      background: #DCDCDC;
-      padding: 0px;
+    .circle {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       width: 40px;
       height: 40px;
+      padding: 0px;
       border-radius: 50%;
+
+      border: 1px solid var(--color-base);
+      background: var(--color-circle-background);
       font-size: 17px;
-      color: black;
+      color: var(--color-circle-text);
       font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      transition: .5s;}
-    .krug:hover {background: #0000CD;
-      color: white;}
-    .active {background: #0000CD;
-      color: white;}
+      transition: .5s;
+    }
 
-    .krug-left {margin-right: 17px;}
-    .krug-right {margin-left: 17px;}
+    .circle:hover {
+      background: var(--color-circle-hover);
+      color: var(--color-base);
+    }
 
-.non-styles{
+    .active {
+      background: var(--color-circle-hover);
+      color: var(--color-base);
+    }
+
+    .circle-left {
+      margin-right: 17px;
+    }
+    .circle-right {
+      margin-left: 17px;
+    }
+
+.non-styles {
   text-decoration: none;
   list-style: none;
-  padding: 0px;}
+  padding: 0px;
+}
 
 
