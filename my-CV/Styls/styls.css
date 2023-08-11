@@ -47,7 +47,18 @@
             align-items: center;
             height: 25px;
             width: 100%;
-            margin: 0 0 45px 0;
+            margin: 0 0 5px 0;
+            font-size: 23px;
+        }
+
+        .position-post {
+            /* outline: 1px solid black; */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 25px;
+            width: 100%;
+            margin: 0 0 40px 0;
             font-size: 23px;
         }
 
@@ -219,12 +230,12 @@
         }
 
         .experience > h3 {
-            margin: 0 0 0 0;
+            margin: 5px 0 0 0;
             font-size: 18px;
         }
 
         .experience ul {
-            padding: 0 0 0 25px;
+            padding: 5px 0 0 35px;
             list-style-type: disc;
         }
                
@@ -251,7 +262,7 @@
             width: 600px;
             position: absolute;
             bottom: 0;
-            right:0;
+            right:0.6px;
         }  
         .line2 {
             background: var(--color-line);
@@ -260,7 +271,7 @@
         }
             
         .none-style{
-            /* text-decoration: none; */
+            text-decoration: none;
             color: black;
         }
            
